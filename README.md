@@ -1,4 +1,4 @@
-## Stack Managment Application with file operations
+## Stack Managment Application with filing
 
 
 ### Main Structure
