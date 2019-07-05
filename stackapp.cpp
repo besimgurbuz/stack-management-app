@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<string.h>
-#include<string>
 #include<conio.h>
 #include<stdlib.h>
+
 #define MAX 50
 #define stack_txt_max 500
 
@@ -90,7 +90,7 @@ void display()
 	}
 	printf("\n");
 }
-int bubbleSort()
+int bubble_sort()
 {
 	int temp;
 	char sn[10];
@@ -175,7 +175,7 @@ int main()
 				display();
 				break;
 			case 4:
-				bubbleSort();
+				bubble_sort();
 				break;
 			case 5:
 				return 1;
